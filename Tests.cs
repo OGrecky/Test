@@ -20,18 +20,18 @@ namespace UnitTest1
         [Fact]
         public void WhenPeopleWriteWeirdThings()
         {
-            //Write here now
             var result = func.Sum(t2_1, t2_2);
             int correct = 0;
             Assert.Equal(correct, result);
         }
-        private const string a = "10000000000";
-        private const string b = "20000000000";
+        private const string t3_1 = "10000000000";
+        private const string t3_2 = "20000000000";
 
         public void WhenNumbersAreTooBig()
         {
-            var result = func.Sum(a, b);
-            int correct = 0;
+            var result = func.Sum(t3_1, t3_2);
+            long correct = long.Parse(t3_1) + long.Parse(t3_2);
+            Assert.Equal(correct, result);
         }
     }
 }
