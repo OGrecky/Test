@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "/home/egor/test/Test/Test.csproj": {}
+    "d:\\Games\\Ondushi\\repos\\PullRequestTraining\\Test\\Test.csproj": {}
   },
   "projects": {
-    "/home/egor/test/Test/Test.csproj": {
+    "d:\\Games\\Ondushi\\repos\\PullRequestTraining\\Test\\Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/egor/test/Test/Test.csproj",
+        "projectUniqueName": "d:\\Games\\Ondushi\\repos\\PullRequestTraining\\Test\\Test.csproj",
         "projectName": "Test",
-        "projectPath": "/home/egor/test/Test/Test.csproj",
-        "packagesPath": "/home/egor/.nuget/packages/",
-        "outputPath": "/home/egor/test/Test/obj/",
+        "projectPath": "d:\\Games\\Ondushi\\repos\\PullRequestTraining\\Test\\Test.csproj",
+        "packagesPath": "C:\\Users\\Алексей\\.nuget\\packages\\",
+        "outputPath": "d:\\Games\\Ondushi\\repos\\PullRequestTraining\\Test\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/home/egor/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Алексей\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -68,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
