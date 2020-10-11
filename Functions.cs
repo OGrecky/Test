@@ -1,9 +1,11 @@
 using System;
 namespace UnitTest1
 {
-    class Tests
+    public class Functions
     {
-        public string SumStrings(string a, string b);
-        public int SumIntegers(int a, int b);
+        public string SumStrings(string a, string b)
+        {
+            return a + b;
+        }
     }
 }
